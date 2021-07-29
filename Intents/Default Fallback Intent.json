@@ -1,0 +1,282 @@
+{
+  "id": "e9130be1-dc3a-4193-ba4d-e071861bf1f0",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": true,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I didn't get that. Can you repeat?",
+            "I can't help with that. Maybe another question?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "https://lin.ee/OUigsH0",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "\n\nA chat bot that tells export/import sending package from one country to another.\nKarim ask me to do one.\n\nIf u have nothing better to do and feel like doing something help me to chat with the bot so I can collect phases and check",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8c86fe2-33a6-421b-a811-b818c6cd65da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "https://lin.ee/OUigsH0\n\nA chat bot that tells export/import sending package from one country to another.\nKarim ask me to do one.\n\nIf u have nothing better to do and feel like doing something help me to chat with the bot so I can collect phases and check",
+          "userDefined": false
+        }
+      ],
+      "count": 13,
+      "id": "89cd3bd7-34ce-4b7b-94a6-4abf37e1f0e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Ejdjdhi",
+          "userDefined": false
+        }
+      ],
+      "count": 13,
+      "id": "4cb4bc09-f021-41cb-905b-f70d86791bea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am gay",
+          "userDefined": false
+        }
+      ],
+      "count": 12,
+      "id": "bb4fa6b6-bd07-4452-abc2-fb8f7502434e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's for lunch",
+          "userDefined": false
+        }
+      ],
+      "count": 12,
+      "id": "2f727ac2-4cdb-48ef-8f2d-9c9ba2f2faf7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Zhenguan",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9e4857f-3ffa-4b65-9aef-a0635628f9df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am going to ",
+          "userDefined": false
+        },
+        {
+          "text": "France",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "164a0a79-f5f5-4fe2-bae3-6d5cc8425e0c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where are we going again?",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "56273a4c-67a3-4e08-b954-284726238534",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where are you export to",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "2a3e621c-3bdc-418d-861d-fe249a7aef01",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I export stuff",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "46d27e2a-3066-4bfa-ba22-de3882722bfa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What can I export",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "818e77eb-06a7-41ea-8d08-b1387f809040",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bang",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ab873de5-1047-49dc-8471-caf888528291",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is Ameruca",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "America",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Like this you can skip the \"regulations\" part of the code",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Make the chat dialogue as short as possible because this is a bit too ambiguous and people don't know what to type",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "It's easier to just tell them to input two countries people will know what to type instantly",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's wrong with America",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Why do you hate America",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
