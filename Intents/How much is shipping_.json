@@ -1,0 +1,65 @@
+{
+  "id": "d2a1ab98-6284-4b4f-a0df-981475db4df4",
+  "name": "How much is shipping?",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Price for different courrier services varies,  please go to the official website to get the correct information."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How much is shipping?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f49a47b-da2f-44c3-ab3e-cfcb9881e468",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How much is the shipping",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90e2ac31-11ed-415f-8ca4-c05008290959",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

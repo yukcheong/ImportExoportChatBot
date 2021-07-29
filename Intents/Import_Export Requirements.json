@@ -1,0 +1,212 @@
+{
+  "id": "97d00022-a09a-4d38-a819-7c408c9d6359",
+  "name": "Import/Export Requirements",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "Import/Export_Requirements",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "CountryFrom",
+          "dataType": "@sys.geo-country",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "From which country?"
+          ],
+          "value": "$CountryFrom",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "CountryTo",
+          "dataType": "@sys.geo-country",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "To which country?"
+          ],
+          "value": "$CountryTo",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Trigger $CountryFrom to $CountryTo"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Show me the import and export requirements from ",
+          "userDefined": false
+        },
+        {
+          "text": "Malaysia",
+          "userDefined": true,
+          "alias": "CountryFrom",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "Japan",
+          "userDefined": true,
+          "alias": "CountryTo",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc38c705-d2c9-41eb-b27a-6589b0a9d3e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the regulations to send a package from ",
+          "userDefined": false
+        },
+        {
+          "text": "US",
+          "userDefined": false,
+          "alias": "CountryFrom",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "UK",
+          "userDefined": false,
+          "alias": "CountryTo",
+          "meta": "@sys.geo-country"
+        }
+      ],
+      "count": 4,
+      "id": "99a0ebb0-9d35-439a-84fe-b855019a90e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's the import export requirements from ",
+          "userDefined": false
+        },
+        {
+          "text": "Japan",
+          "userDefined": false,
+          "alias": "CountryFrom",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "Malaysia",
+          "userDefined": false,
+          "alias": "CountryTo",
+          "meta": "@sys.geo-country"
+        },
+        {
+          "text": ".",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "279bc8e2-589d-4cc0-9253-fbbb56e828cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Italy to America ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "America to Italy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Italy to America",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "AMERICA TO CHINA",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
