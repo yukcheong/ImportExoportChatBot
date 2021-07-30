@@ -55,9 +55,7 @@
         {
           "type": "message",
           "condition": "",
-          "speech": [
-            "Trigger $CountryFrom to $CountryTo"
-          ]
+          "speech": []
         }
       ],
       "resetContexts": false
@@ -162,12 +160,12 @@
       "isTemplate": false,
       "data": [
         {
-          "text": "Italy to America ",
+          "text": "Italy to America",
           "userDefined": false
         }
       ],
-      "count": 0,
-      "id": null,
+      "count": 1,
+      "id": "ac2096b8-6b4e-402c-87ac-8f0d5b594015",
       "updated": null
     },
     {
@@ -179,19 +177,7 @@
         }
       ],
       "count": 0,
-      "id": null,
-      "updated": null
-    },
-    {
-      "isTemplate": false,
-      "data": [
-        {
-          "text": "Italy to America",
-          "userDefined": false
-        }
-      ],
-      "count": 0,
-      "id": null,
+      "id": "0beee55d-f672-4927-86c0-9dedf3595343",
       "updated": null
     },
     {
@@ -203,10 +189,10 @@
         }
       ],
       "count": 0,
-      "id": null,
+      "id": "5d3f955e-9db3-46e6-824b-16cf50beed51",
       "updated": null
     }
   ],
   "webhookForSlotFilling": false,
-  "webhookUsed": false
+  "webhookUsed": true
 }
