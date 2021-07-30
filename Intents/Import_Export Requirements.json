@@ -55,7 +55,9 @@
         {
           "type": "message",
           "condition": "",
-          "speech": []
+          "speech": [
+            "Sorry, information unavailable please try another country."
+          ]
         }
       ],
       "resetContexts": false
@@ -160,36 +162,24 @@
       "isTemplate": false,
       "data": [
         {
-          "text": "Italy to America",
-          "userDefined": false
-        }
-      ],
-      "count": 1,
-      "id": "ac2096b8-6b4e-402c-87ac-8f0d5b594015",
-      "updated": null
-    },
-    {
-      "isTemplate": false,
-      "data": [
+          "text": "North Korea",
+          "userDefined": false,
+          "alias": "CountryFrom",
+          "meta": "@sys.geo-country"
+        },
         {
-          "text": "America to Italy",
+          "text": " to ",
           "userDefined": false
+        },
+        {
+          "text": "Malaysia",
+          "userDefined": false,
+          "alias": "CountryTo",
+          "meta": "@sys.geo-country"
         }
       ],
       "count": 0,
-      "id": "0beee55d-f672-4927-86c0-9dedf3595343",
-      "updated": null
-    },
-    {
-      "isTemplate": false,
-      "data": [
-        {
-          "text": "AMERICA TO CHINA",
-          "userDefined": false
-        }
-      ],
-      "count": 0,
-      "id": "5d3f955e-9db3-46e6-824b-16cf50beed51",
+      "id": "ec7ea41b-67db-472c-946b-c0b62c0794be",
       "updated": null
     }
   ],
