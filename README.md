@@ -20,7 +20,7 @@ Deploy all the files in "Chatbot" folder to Heroku.
 
 ### Enable webhook fulfilment in Dialogflow
 
-![dialogflow fulfilment](https://ucf654ffc522d27a2e066471feb9.dl.dropboxusercontent.com/cd/0/get/BTTJrCYYeB-wSRRKNQ6z6x7USplLCL9aOFJ8NmLm1aWhCYL25aLy6ALqqcGm8qS0SJcIh56y0URzyANwPeSLi1MrzkBuUx9p8PKjlVfgmaU1PjyT_B-cRYjtEfyI_OwCCfsfHsyhWAfo6kXxoliHCnzW/file?dl=1#)
+![dialogflow fulfilment](https://user-images.githubusercontent.com/67573677/127658627-deeca14c-9bec-4c69-84bc-643a087ba01c.png)
 
 Place the link of the heroku app in the fulfilment section with "/webhook" behind.
 
@@ -28,6 +28,6 @@ Place the link of the heroku app in the fulfilment section with "/webhook" behin
 
 ### Enable webhook call for "Import/Export Requirements" intent.
 
-![intent fulfilment](https://task3.yukcheong.ml/wp-content/uploads/2021/07/IntentFulfilment.png)
+![intent fulfilment](https://user-images.githubusercontent.com/67573677/127658554-978dc477-ebf6-4dec-bbff-ebaacf5866d7.png)
 
 Toggle "Enable webhook call for this intent" under fulfilment section.
