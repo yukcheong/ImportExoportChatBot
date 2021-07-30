@@ -20,7 +20,7 @@ Deploy all the files in "Chatbot" folder to Heroku.
 
 ### Enable webhook fulfilment in Dialogflow
 
-![dialogflow fulfilment](https://task3.yukcheong.ml/wp-content/uploads/2021/07/DialogflowFulfilmet.png)
+![dialogflow fulfilment](https://www.dropbox.com/s/6auuazx1ucemsrh/DialogflowFulfilmet.png?dl=1)
 
 Place the link of the heroku app in the fulfilment section with "/webhook" behind.
 
